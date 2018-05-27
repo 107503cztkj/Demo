@@ -1,0 +1,135 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background:#FFF;
+		font-family: Microsoft JhengHei;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+
+/*********************************************************************************/
+/* right                                                                       */
+/*********************************************************************************/
+div.right{
+	float:right;
+	width:650px;
+}
+
+/*********************************************************************************/
+/* menu                                                                       */
+/*********************************************************************************/
+#menu{
+	height:49px;
+}
+
+#menu ul{
+    list-style: none;
+	padding: 0px;
+}
+
+#menu ul li{
+	display: inline;
+}
+
+#menu ul li a{
+	font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+    display: block;
+    float: left;
+	width: 132px;
+    height: 49px;
+	text-align: center;
+	line-height: 49px;
+	margin: 0px 10px 0px 0px;
+}
+
+#menu ul li a:hover{
+	color:#09F;
+}
+
+#menu ul li .select{
+	margin-left:200px;
+	color: #63C;
+}
+
+/*********************************************************************************/
+/* table                                                                       */
+/*********************************************************************************/
+	table{
+		float: left;
+		margin-top: 20px;
+		margin-left: 5%;
+		border-collapse:collapse;
+		border-spacing:50px;
+		text-align:left;
+		margin-bottom:10px;
+		
+	}
+
+/*********************************************************************************/
+/* Introduce                                                                       */
+/*********************************************************************************/
+	td.Introduce{
+		max-width: 450px;
+	}
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+	div.content{ 
+		width: 80%;
+		padding:30px 30px 20px 30px;
+		margin-left: 10%;
+		margin-bottom:100px;
+	}
+
+/*********************************************************************************/
+/* img                                                                       */
+/*********************************************************************************/
+	img{ 
+		float:left;
+	}
+/*********************************************************************************/
+/* Button Style                                                                  */
+/*********************************************************************************/
+
+	.button1
+	{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 1em 2em 1em 2em;
+		margin-left:250px;
+		background:#FFB8B8;
+		letter-spacing: 0.20em;
+		line-height: 1.8em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1.2em;
+		color: #FFF;
+		-webkit-border-radius: 30px;
+		-moz-border-radius: 30px;
+		/*把按鈕調成圓弧形*/
+		border-radius: 30px;
+	
+		-webkit-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+		-moz-box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+		box-shadow: 1px 1px 1px rgba(0,0,0, .29), inset 1px 1px 1px rgba(255,255,255, .44);
+	
+		-webkit-transition: all 0.15s ease;
+		-moz-transition: all 0.15s ease;
+		-o-transition: all 0.15s ease;
+		-ms-transition: all 0.15s ease;
+		transition: all 0.15s ease;
+		
+	}
+

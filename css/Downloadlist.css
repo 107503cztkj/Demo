@@ -1,0 +1,63 @@
+html, body
+	{
+		height: 100%;
+	}
+	
+	body
+	{
+		margin: 0px;
+		padding: 0px;
+		background:#FFF;
+		font-family: Microsoft JhengHei;
+		font-size: 12pt;
+		font-weight: 400;
+		color: #000000;
+	}
+
+/*********************************************************************************/
+/* Wrapper                                                                       */
+/*********************************************************************************/
+
+	#wrapper1
+	{
+		background: #242424;
+	}
+	
+	#wrapper1
+	{
+		overflow: hidden;
+		padding: 0em 0em 8em 0em;
+		background: #FFF;
+	}
+
+/*********************************************************************************/
+/* list                                                                        */
+/*********************************************************************************/
+	table{
+		border-collapse:collapse;
+		border-spacing:2px;
+		width:110%;
+		border:1px solid #000;
+		text-align:center;
+		margin-bottom:10px;
+		margin-left: -22%;
+		margin-right: 10%;
+	}
+
+	tr.info{
+		background-color:#9c0e0e;
+		color:#fff;
+		font-weight:bold;
+	}
+
+/*********************************************************************************/
+/* content                                                                       */
+/*********************************************************************************/
+	div.content{   
+		padding: 450px 0px 20px 25%;
+		width:1200;
+		margin-left:auto;
+		margin-right:auto;	
+		text-align:center;
+		margin-bottom: 50px;
+	}

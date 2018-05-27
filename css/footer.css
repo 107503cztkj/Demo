@@ -1,0 +1,15 @@
+/*---------------------------*/
+/* 定義Copyright             */
+/*---------------------------*/
+div.footer{
+    font-family: Microsoft JhengHei;
+    height:80px;
+    background-color:#ffe7b8;
+    font-size:13px;
+    text-align:center;
+    line-height: 50px;
+    letter-spacing:3px;
+    position:relative;
+    color:#333;	
+    margin-left: -70px;
+}

@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  
+  }
+form.example{
+	float:left;
+	border-radius:99em;
+
+}
+/* Style the search field */
+form.example input[type=text] {
+  padding: 3px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background:#ffecf5;
+  border-radius:99em;
+
+}
+
+/* Style the submit button */
+form.example button {
+  float:left;
+  width: 20%;
+  padding: 3px;
+  background: #ffaad5;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+  border-radius:99em;
+
+  
+}
+
+form.example button:hover {
+  background: #ff8c84;
+  border-radius:99em;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+  border-radius:99em;
+}
